@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+</head>
+<body>
+    <div class="empty"></div>
+    <div class="wrapper">
+        <div class="block">
+            <div class="header">
+                <div class="header_top">
+                    Tournament
+                </div>
+                <div class="header_bottom">
+                    <ul class="header_bottom-menu">
+                        <li class="header_bottom-menu_element">
+                            <a href="#">START NEW TOURNAMENT</a>
+                        </li>
+                        <li class="header_bottom-menu_element">
+                            <a href="#">CHANGE YOUR TOURNAMENT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main">
+                <div class="main_title">
+                    CREATE:
+                </div>
+                <div class="main-content">
+                    <div class="main-content-participants">
+                        <div class="main-content-participants_title">
+                            Participants (number less 21)
+                        </div>
+                        <input id="participants" list="Colvo-one">
+                            <datalist id="Colvo-one">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </datalist> 
+                    </div>
+                    <div class="main-content-votes">
+                        <div class="main-content-votes_title">
+                            Votes (number less 21)
+                        </div>
+                        <input id="votes" list="Colvo-two">
+                            <datalist id="Colvo-two">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </datalist> 
+                    </div>
+                    <div class="main-content-system">
+                        <div class="main-content-system_title">
+                            Add your points system (for example: 1,2,3,4,5):
+                        </div>
+                        <input id="system" list="Colvo-three">
+                            <datalist id="Colvo-three">
+                                <option>1,2,3,4,5</option>
+                            </datalist> 
+                    </div>
+                    <a href="#">
+                        <div id="ok">
+                        OK
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="main-two">
+                <div id="participants-table">   
+                </div>
+                <div id="votes-table">  
+                </div>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
